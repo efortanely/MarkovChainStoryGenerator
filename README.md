@@ -3,6 +3,8 @@ Overview.
 
 The Markov Text Generator can be used to create nonsensical passages composed of phrase patterns captured from the original text input. Markov chains describe the probability of a new event’s occurrence, given some previous state. With this, the generator is able to probabilistically generate new phrases based on a prediction of what a new phrase will be given some number of phrases that precede it. However, as it is unable to combine long term and short-term patterns in a unique configuration, its generated stories are rather confusing.
 
+////
+
 Example of a simple story generation.
 
 StoryGenerator story = new StoryGenerator();
@@ -10,6 +12,8 @@ StoryGenerator story = new StoryGenerator();
 story.makeStory();
 
 story.printStory();
+
+////
 
 Creating a story.
 
