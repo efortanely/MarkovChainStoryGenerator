@@ -6,7 +6,9 @@ The Markov Text Generator can be used to create nonsensical passages composed of
 Example of a simple story generation.
 
 StoryGenerator story = new StoryGenerator();
+
 story.makeStory();
+
 story.printStory();
 
 Creating a story.
