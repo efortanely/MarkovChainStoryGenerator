@@ -17,7 +17,7 @@ story.printStory();
 
 Creating a story.
 
-The constructors provided allow for the user to provide input from a file or from the console. The default constructor assumes console input. Additonal constructors provided allow for inputting a ‘Story’ from the Story enum of prestored novel samples, or inputting the path for a file created by the user containing a text sample.
+The constructors provided allow for the user to provide input from a file or from the console. The default constructor assumes console input. Additonal constructors provided allow for inputting a ‘Story’ from the Story enum of prestored novel samples, or inputting the path for a .txt file created by the user containing a text sample.
 
 Configurations.
 
